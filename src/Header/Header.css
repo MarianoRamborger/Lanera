@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+#header-bar {
+
+    display: flex;
+    flex-flow: row wrap;
+    background-color: purple;
+
+}
+
+.title {
+
+}
+
+
+.nav-bar {
+
+  flex-grow: 0.5;
+
+}
+
+#title-ham-div {
+ 
+  flex-grow: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+  .nav-bar {
+    overflow: hidden;
+  }
+
+  .nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-bar ul a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .small-dropdown {
+    display: none;
+    
+
+  }
+
+  #hamburger {
+    display: none;
+  }
+  
+
+  .dropdown-container {
+    float: left;
+    overflow: hidden;
+    padding: 0px;
+  
+  }
+
+  .dropdown-container  {
+    font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  }
+
+  /* hide by default */ 
+  .dropdown-content {
+
+    position: absolute;
+    margin-top: 60px;
+    background-color: purple;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+.nav-list {
+  transition: 1s max-height ease-in-out !important; /* Same transition trick*/
+}
+
+/* media to hide*/
+  @media screen and (max-width: 600px) {
+    
+    {/*Hides big */}
+    .big-dropdown {
+      display: none !important;
+    }
+
+    .nav-bar {
+      margin-left: 0
+    }
+    
+    .nav-list li{
+      display: none;   
+    }
+
+    .nav-list {
+      max-height: 0px;
+    }
+
+    #hamburger {
+      position: absolute;
+      margin-right: 7px;
+      right: 0;
+      display: block;
+    }
+
+
+  }
+
+  /* media to show*/
+  @media screen and (max-width: 600px) {
+
+
+    #header-bar {
+      text-align: center;
+      flex-flow: column nowrap
+    }
+
+    .title {
+      margin-left: 0px;
+    }
+
+
+    #title-ham-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Responsive triggers all the nice vertical menu styles*/
+
+    .nav-list.responsive {
+      position: relative;
+      max-height: 5000px;
+    }
+
+    .nav-list.responsive li {
+      float: none;
+      display: flex;
+    
+      width: 100%;
+
+  
+     
+    }
+
+  
+    .nav-list.responsive  {
+      display: flex;
+      flex-direction: column ;
+      align-items: flex-start;
+   
+
+    }
+
+    /* Responsive */
+
+    .dropdown-container {
+      padding: 0px
+    }
+ 
+
+    /* small dropdown */
+    
+    .small-dropdown { 
+      display: flex;
+      flex-flow: column nowrap;
+      height: auto;
+      max-height: 50px;
+      transition: max-height 300ms  ease-in-out !important  ; /* El trucazo es usar max height como dimensión, lo que va a permitir que el height se siga ajustando automáticamente. Se da un valor alto para el max height de transición*/
+    }
+
+      .dropdown-content-small {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 30px
+    }
+
+    .open {
+      max-height: 250px !important;
+
+    }
+
+
+
+
+    .dropdown-container-small-button {
+      text-align: start !important
+
+    }
+
+    .dropdown-container-small-button:active, .dropdown-container-small-button:visited {
+      text-decoration: none;
+      outline: 1px solid purple; /* REmember to swap this with the header's color*/
+    }
+
+  }
+
+
+  /* ANIMATIONS */
+
+  /* big dropdown*/
+  .fade-in{-webkit-animation:fade-in .5s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in .5s cubic-bezier(.39,.575,.565,1.000) both}
+  @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+
+  /* Cambiar esta animación to be less delayed o bien hacer que cada parte de la lista tenga su propio delay */
+  .fade-out{-webkit-animation:fade-out .4s ease-out forwards;animation:fade-out .4s ease-out forwards}
+  @-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}@keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+ 
