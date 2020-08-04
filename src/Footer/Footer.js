@@ -21,7 +21,7 @@ const Footer = () => {
 
                         <div> <SmartphoneIcon/>  <p>   1144062944</p>  </div>
                         <div> <AlternateEmailIcon/>  <p> <a href="mailto:Lanasmaradans@gmail.com" > Lanasmaradans@gmail.com  </a> </p> </div>
-                        <div className="conditional-p"> <AccessTimeIcon/>  <p > Lunes a viernes, 10:00 a 13:00 & 16:00 a 19:00h. </p>   </div>
+                        <div> <AccessTimeIcon/>  <p > Lunes a viernes, 10:00 a 13:00 & 16:00 a 19:00h. </p>   </div>
 
                         
                         
@@ -36,19 +36,10 @@ const Footer = () => {
                         <Map/>
                         
                 </div>
-
-
-                <div className="footer-column third-column"> 
-                     <h3> Horarios</h3>
-                
-                    <div > <p> Lunes a Viernes</p>  </div>
-                    <div> <p>10:00 a 13:00</p> </div>
-                    <div>  <p>16:00 a 19:00</p> </div>  
+ 
                    
                         
-                       
-                </div>
-
+           
 
            
 

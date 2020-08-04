@@ -8,7 +8,7 @@ const Map = () => {
         <div>
             <div class="mapouter standard">
                 <div class="gmap_canvas">
-                    <iframe width="250" height="250" id="gmap_canvas" title="map-small" className="map-iframe"
+                    <iframe width="400" height="300" id="gmap_canvas" title="map-small" className="map-iframe"
                     src="https://maps.google.com/maps?q=Avenida%20de%20mallo%201100%20villa%20adelina&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     <a href="https://www.whatismyip-address.com/divi-discount/"> </a>
                 </div>
