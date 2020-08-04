@@ -1,0 +1,181 @@
+
+#footer-div {
+
+    min-height: 400px;
+    background-color: purple;
+    display:  flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.footer-content-div {
+    display:  flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+    margin: 30px 0px
+    
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    background-color: rgba(0,0,0, 0.3);
+   
+}
+
+.footer-column h3 { 
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    text-align: center; 
+}
+
+.footer-column div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.footer-column div:first-of-type, .third-column {
+    margin-top: 0px 
+
+}
+
+
+.footer-column div p, .footer-column div p a{ 
+    font-size: 20px;
+    color:white;
+}
+
+.footer-column div svg {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-column div p {
+    width: 280px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+
+.footer-column:nth-of-type(1) {
+    border-radius: 20px 0px 0px 20px
+}
+.footer-column:nth-of-type(3) {
+    border-radius: 0px 20px 20px 0px
+}
+
+.footer-column div {
+    display: flex;
+    justify-content: center;
+}
+
+.conditional-p {
+    display: none !important;
+}
+
+.third-column {
+    justify-items: flex-start !important;
+}
+
+.third-column div{
+    display: flex;
+    flex-direction: row nowrap;
+    text-align: center;
+    height: 30px;
+
+}
+.third-column div p{
+    margin-left: 0px;
+}
+
+.third-column div:first-of-type{ 
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* Cuando serian solo 2 blocs, dejar horario y contacto juntos, y then abajo el mapa en grande del tamaño de both*/
+
+
+@media screen and (max-width: 1100px) { 
+
+
+    .footer-column:nth-of-type(2) {
+        order: 2 !important;
+        border-radius: 0px 20px 20px 0px
+    }
+
+    .footer-column:nth-of-type(2) {
+        border-radius: 20px;
+        width: 600px
+    }
+
+  
+    .footer-column:first-of-type {
+        width: 350px
+    }
+
+    .footer-column:nth-last-of-type(1) {
+        width: 250px
+    }
+    .footer-column:nth-last-of-type(1) div p{
+        width: 150px
+    }
+
+    .footer-column p {
+        margin-top: 0px
+    }
+
+    .third-column div  {
+        margin-top: 0px;
+        margin-bottom: 5px
+    }
+
+    .third-column div:first-of-type{ 
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 650px) {  
+
+
+    .conditional-p {
+        display: flex !important;
+    }
+
+    .footer-content-div {
+        width:  100%;      
+    }
+
+    .footer-column {
+        border-radius: 20px !important;
+        width: 95% !important;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+     }
+
+     .footer-column:nth-of-type(3) {
+        display: none !important;
+    }
+}
