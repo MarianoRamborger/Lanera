@@ -1,0 +1,30 @@
+
+.Carousel {
+    margin-top: 0px;
+    margin: 0 15%
+}
+
+.car-img-div {
+    background-color: white !important;
+    max-width: 3000px !important;
+    max-height: 450px !important; 
+    overflow: hidden;
+    color: black !important;
+
+}
+
+
+
+
+.carousel-image {
+ 
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80vw;
+    max-height: 50vh;
+    color: black !important;
+
+}
+

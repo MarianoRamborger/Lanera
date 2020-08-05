@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header/Header.js'
 import Footer from  './Footer/Footer.js'
+import CCarousel from './Carousel/Carousel'
 
 import {
   BrowserRouter as Router,
@@ -19,6 +20,7 @@ return(
 
     <Header />
 
+     <CCarousel/>
 
     <p>
      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet pulvinar augue, ut feugiat leo. Mauris nisi lectus, imperdiet ac nisl mollis, fringilla fermentum felis. Proin scelerisque nibh non eros lacinia, non rutrum justo mollis. Mauris nec tempor ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum at aliquet est, eget efficitur nisi. Sed laoreet augue ac felis consequat finibus. Proin volutpat ullamcorper vulputate. Vestibulum eget enim purus. Aliquam vel cursus lorem. Vestibulum faucibus lectus lacinia turpis fringilla condimentum. Sed id tortor nec est maximus aliquam. Morbi eleifend diam eget arcu ullamcorper hendrerit.
