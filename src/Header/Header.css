@@ -116,7 +116,7 @@
 /* media to hide*/
   @media screen and (max-width: 600px) {
     
-    {/*Hides big */}
+    
     .big-dropdown {
       display: none !important;
     }
@@ -244,4 +244,6 @@
   /* Cambiar esta animación to be less delayed o bien hacer que cada parte de la lista tenga su propio delay */
   .fade-out{-webkit-animation:fade-out .4s ease-out forwards;animation:fade-out .4s ease-out forwards}
   @-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}@keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+ 
+
  

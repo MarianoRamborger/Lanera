@@ -1,0 +1,24 @@
+.news-card-div{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+
+    border-bottom: 2px solid green;
+}
+
+.news-text {
+    flex-grow: 1;
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    
+}
+
+.news-timestamp {
+
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+

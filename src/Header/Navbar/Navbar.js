@@ -34,7 +34,7 @@ const Navbar = (props) => {
 
             <ul className={"nav-list"  + (responsive ? ' responsive' : '')}>   {/* Dynamic class allocation!*/}
     
-                <li>  <Link to="/home" > Home </Link> </li>
+                <li>  <Link to="/" > Home </Link> </li>
             
               
                 {/* EL dropdown for big screens. */}
@@ -47,7 +47,7 @@ const Navbar = (props) => {
                             {
                                 dropDown === true ?  
                                 <div className="dropdown-content fade-in"  > 
-                                <Link to="#"> asasddasdas </Link>
+                                <Link to="/algodon"> Algodon </Link>
                                 <Link to="#"> asasddasdas </Link>
                                 <Link to="#"> asasddasdas </Link>
                                 <Link to="#"> asasddasdas </Link>

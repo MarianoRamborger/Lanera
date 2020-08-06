@@ -1,0 +1,38 @@
+.novedades-div {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow : column nowrap;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.novedades-div h3 {
+
+    font-size: 1.8em;
+    margin-bottom: 30px ;
+
+}
+
+
+.novedades-cards-div {
+
+    width: 80%;
+    margin-left: 10%;   
+    margin-right: 10%;
+
+}
+
+
+@media screen and (max-width: 650px) {   
+
+    .novedades-cards-div {
+
+        width: 95%;
+        margin-left: 2.5%;   
+        margin-right: 2.5%
+    }
+
+}
