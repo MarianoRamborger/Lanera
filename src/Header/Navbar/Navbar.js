@@ -48,9 +48,16 @@ const Navbar = (props) => {
                                 dropDown === true ?  
                                 <div className="dropdown-content fade-in"  > 
                                 <Link to="/algodon"> Algodon </Link>
-                                <Link to="#"> asasddasdas </Link>
-                                <Link to="#"> asasddasdas </Link>
-                                <Link to="#"> asasddasdas </Link>
+                                <Link to="/lino"> Lino </Link>
+                                <Link to="/cachemir"> Cachemir </Link>
+                                <Link to="/alpaca"> Alpaca </Link>
+                                <Link to="/mohair"> Mohair </Link>
+                                <Link to="/acrilico"> Acrilico </Link>
+                                <Link to="/poliester"> Poliester </Link>
+                                <Link to="/lurex"> Lurex </Link>
+                                <Link to="/merino"> Merino </Link>
+                                <Link to="/mixtas"> Mixtas </Link>
+
                                 </div>
                                 
                                 : null
@@ -65,17 +72,31 @@ const Navbar = (props) => {
 
                 {dropDown ?  
                     <div className="dropdown-content-small">
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
+                                <Link to="/lanas"> Todas </Link>
+                                <Link to="/algodon"> Algodon </Link>
+                                <Link to="/lino"> Lino </Link>
+                                <Link to="/cachemir"> Cachemir </Link>
+                                <Link to="/alpaca"> Alpaca </Link>
+                                <Link to="/mohair"> Mohair </Link>
+                                <Link to="/acrilico"> Acrilico </Link>
+                                <Link to="/poliester"> Poliester </Link>
+                                <Link to="/lurex"> Lurex </Link>
+                                <Link to="/merino"> Merino </Link>
+                                <Link to="/mixtas"> Mixtas </Link>
                     </div>
                     : 
                     <div className="dropdown-content-small fade-out">
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
-                            <Link to="#"> asasddasdas </Link>
+                                <Link to="/lanas"> Todas </Link>
+                                <Link to="/algodon"> Algodon </Link>
+                                <Link to="/lino"> Lino </Link>
+                                <Link to="/cachemir"> Cachemir </Link>
+                                <Link to="/alpaca"> Alpaca </Link>
+                                <Link to="/mohair"> Mohair </Link>
+                                <Link to="/acrilico"> Acrilico </Link>
+                                <Link to="/poliester"> Poliester </Link>
+                                <Link to="/lurex"> Lurex </Link>
+                                <Link to="/merino"> Merino </Link>
+                                <Link to="/mixtas"> Mixtas </Link>
                     </div>
 
                 }

@@ -15,11 +15,16 @@ const Lanas = (props) => {
             <div className="product-text"> 
                 <p className="product-desc">   {desc}  </p>
 
-                 <p className="product-uses">  {uses}    </p>
+                 <p className="product-uses">  
+                 <ul>
+                     {uses.map(use => { return <li key={use}> {use} </li>  }) }
+                 </ul>
+
+                </p>
              </div>
                    
-        
-            <img className="product-image" src={require(`${picture}`)} alt={alt} />
+             <img className="product-image" src={require(`${picture}`)} alt={alt} />
+          
 
              </div>
 
