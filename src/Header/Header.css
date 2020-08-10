@@ -20,9 +20,10 @@
 
 .title {
   font-family: titleFont;
-  font-size: 45px;
+  font-size: 60px;
   margin: 0px; padding: 0px;
   color: #a8296b;
+  font-weight: lighter;
 
 
 
@@ -152,6 +153,16 @@
 }
 
 /* media to hide*/
+
+@media screen and (max-width: 800px) { 
+
+  .title {
+    font-size: 40px;
+  }
+  
+}
+
+
   @media screen and (max-width: 600px) {
     
     
@@ -178,6 +189,13 @@
       display: block;
     }
 
+
+
+    .title.ham-div {
+      display: flex;
+      justify-content: flex-start;
+      align-content: flex-start;
+    }
 
   }
 
