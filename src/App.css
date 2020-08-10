@@ -13,3 +13,22 @@
   flex-grow: 1;
 }
 /* Footer pusher */
+
+body {
+
+
+
+  background-color: #f9f8fd
+
+  
+}
+
+@font-face {
+  font-family: peachy;
+  src: url('./fonts/PeachesForBreakfast-Regular.otf');
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url('./fonts/ScrapItUp.ttf');
+}

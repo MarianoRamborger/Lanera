@@ -2,7 +2,7 @@ import React from 'react'
 import '../Header.css'
 import { Link } from 'react-router-dom'
 
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+
 
 const Navbar = (props) => {
     const {responsive} = props
@@ -41,23 +41,28 @@ const Navbar = (props) => {
                 <li className="dropdown-container big-dropdown" onMouseEnter={handletoggleDropdown} onMouseLeave={handletoggleDropdown}  > 
                     
                         <Link to="/lanas"> Lanas  
-                            <ArrowDropDownIcon className="dropdown-arrow" />  
+            
+                            {/* <ArrowDropDownIcon className="dropdown-arrow" />   */}
                         </Link>
                     
                             {
                                 dropDown === true ?  
-                                <div className="dropdown-content fade-in"  > 
-                                <Link to="/algodon"> Algodon </Link>
-                                <Link to="/lino"> Lino </Link>
-                                <Link to="/cachemir"> Cachemir </Link>
-                                <Link to="/alpaca"> Alpaca </Link>
-                                <Link to="/mohair"> Mohair </Link>
-                                <Link to="/acrilico"> Acrilico </Link>
-                                <Link to="/poliester"> Poliester </Link>
-                                <Link to="/lurex"> Lurex </Link>
-                                <Link to="/merino"> Merino </Link>
-                                <Link to="/mixtas"> Mixtas </Link>
-
+                                <div className="dropdown-content fade-in" >
+                                <div>
+                                    <Link to="/algodon"> Algodon </Link>
+                                    <Link to="/lino"> Lino </Link>
+                                    <Link to="/cachemir"> Cachemir </Link>
+                                    <Link to="/alpaca"> Alpaca </Link>
+                                    <Link to="/mohair"> Mohair </Link>
+                                </div> 
+                                <div>
+                                    <Link to="/acrilico"> Acrilico </Link>
+                                    <Link to="/poliester"> Poliester </Link>
+                                    <Link to="/lurex"> Lurex </Link>
+                                    <Link to="/merino"> Merino </Link>
+                                    <Link to="/mixtas"> Mixtas </Link>
+                                </div>
+                               
                                 </div>
                                 
                                 : null
@@ -104,7 +109,7 @@ const Navbar = (props) => {
                 </li>
 
 
-            <li><Link to="/contacto"> Contacto </Link> </li>
+            {/* <li><Link to="/contacto"> Contacto </Link> </li> */}
 
 
         

@@ -5,14 +5,17 @@
     flex-flow : column nowrap;
     align-content: center;
     align-items: center;
+    font-family: Helvetica;
 
 
 }
 
 .novedades-div h3 {
 
-    font-size: 1.8em;
+    color: #a8296b;;
+    font-size: 55px;
     margin-bottom: 30px ;
+    font-family: titleFont ;
 
 }
 

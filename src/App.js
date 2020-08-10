@@ -13,7 +13,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
+  // Redirect,
   //Link
 } from "react-router-dom";
 

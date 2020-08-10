@@ -16,7 +16,7 @@ const Header = () => {
         <div id="header-bar"> 
 
         <div id="title-ham-div"> 
-         <h2 className="title"> (TITU)LO(GO) </h2>
+         <h2 className="title"> {"Lanas Maradans"} </h2>
 
          <button id="hamburger" onClick={handleToggleResponsive}> <MenuIcon /> </button>
         </div>

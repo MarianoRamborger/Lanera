@@ -4,15 +4,28 @@
 }
 
 
+
+
 #header-bar {
 
     display: flex;
     flex-flow: row wrap;
-    background-color: purple;
-
+    background-color: #be9ddf;
+ 
+    
 }
 
+
+
+
 .title {
+  font-family: titleFont;
+  font-size: 45px;
+  margin: 0px; padding: 0px;
+  color: #a8296b;
+
+
+
 
 }
 
@@ -51,8 +64,13 @@
     text-decoration: none;
     font-size: 17px;
     color: white;
+    font-family: peachy;
+    font-size: 40px;
     
   }
+
+  .nav-bar ul a:hover{ color: #513e5c }
+
 
   .active {
     background-color: #4CAF50;
@@ -93,19 +111,39 @@
 
     position: absolute;
     margin-top: 60px;
-    background-color: purple;
+    background-color: #be9ddf;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
 
-  .dropdown-content a {
-    float: none;
-    color: black;
+  .dropdown-content div a {
+
+    
+    color: white;
     padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    margin: 2px;
+    text-decoration: none;  
+    text-align: center;
+  }
+
+  .dropdown-content div a:hover {
+    color: #513e5c
+  }
+
+  .arrow {
+    border: solid whitesmoke;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    border-radius: 20px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 
 
