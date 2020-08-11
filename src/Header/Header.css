@@ -325,14 +325,12 @@
   @media screen and (max-width: 400px) { 
     .title{
       margin-left: 5px !important;
-      font-size: 30px !important;
+      font-size: 32px !important;
     }
     .logo {
       width: 40px !important;
     }
-    #hamburger {
-      font-size: 20px !important;
-    }
+ 
 
   }
 
