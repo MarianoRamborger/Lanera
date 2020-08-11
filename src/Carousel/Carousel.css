@@ -8,7 +8,8 @@
 }
 
 .car-img-div {
-    background-color: #f9f8fd !important;
+    /* background-color: #f9f8fd !important; */
+    background-color: #be9ddf;
     max-width: 3000px !important;
     max-height: 500px !important; 
     overflow: hidden;

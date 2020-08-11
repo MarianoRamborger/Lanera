@@ -29,6 +29,12 @@
     width: 500px;
 }
 
+.ultrasmall{
+    width: 250px;
+    display: none !important
+}
+
+
 @media screen and (max-width: 900px) { 
 
     .wide { 
@@ -50,5 +56,19 @@
         display: block !important;
     }
 
+
+}
+
+@media screen and (max-width: 400px) { 
+
+    .wide { 
+        display: none !important;
+    }
+    .standard {
+        display: none !important;
+    }
+    .ultrasmall {
+        display: block;
+    }
 
 }
