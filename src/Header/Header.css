@@ -4,8 +4,6 @@
 }
 
 
-
-
 #header-bar {
 
     display: flex;
@@ -16,8 +14,6 @@
 }
 
 
-
-
 .title {
   font-family: titleFont;
   font-size: 60px !important;
@@ -26,15 +22,12 @@
   font-weight: lighter !important;
 
 
-
-
 }
 
 
 .nav-bar {
 
   flex-grow: 0.5;
-
 }
 
 #title-ham-div {
@@ -275,8 +268,6 @@
     }
 
 
-
-
     .dropdown-container-small-button {
       text-align: start !important
 
@@ -289,6 +280,22 @@
 
   }
 
+
+  @media screen and (max-width: 500px) { 
+    #header-bar {
+
+    }
+
+    #title-ham-div {
+      width: 100% !important;
+      justify-content: flex-start !important;
+      
+    }
+    .title{
+      margin-left: 15px;
+    }
+
+  }
 
   /* ANIMATIONS */
 

@@ -17,9 +17,9 @@ const Novedades = () => {
                   "Hacemos entregas sin contacto debido al COVID-19."
               ]}
                           
-               timestamp={"06/08/2020"} />
+               timestamp={"06/08/2020"} id={1}/>
 
-              <Newscard novedad={["Estrenamos página web!"]} timestamp={"06/08/2020"} />
+              <Newscard novedad={["Estrenamos página web!"]} timestamp={"06/08/2020"} id={0}/>
         
             </div>
 

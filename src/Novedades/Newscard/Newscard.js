@@ -10,10 +10,10 @@ const Ncard = (props) => {
         <p className="news-text">  
          
          {props.novedad.map(novedad => {
-             console.log(novedad)
+             
             
             return (
-                <React.Fragment>
+                <React.Fragment key={Math.random()}>
                 {novedad}
                 <br/>
                 </React.Fragment>
