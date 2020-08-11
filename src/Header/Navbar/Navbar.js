@@ -49,7 +49,7 @@ const Navbar = (props) => {
                                 dropDown === true ?  
                                 <div className="dropdown-content fade-in" >
                                 <div>
-                                    <Link to="/algodon"> Algodón </Link>
+                                    <Link to="/algodon"> Algodon </Link>
                                     <Link to="/lino"> Lino </Link>
                                     <Link to="/cachemir"> Cachemir </Link>
                                     <Link to="/alpaca"> Alpaca </Link>
