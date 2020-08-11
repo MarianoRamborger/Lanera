@@ -30,8 +30,8 @@
 }
 
 .ultrasmall{
+
     width: 250px;
-    display: none !important
 }
 
 
@@ -43,7 +43,10 @@
     .standard {
         display: none !important;
     }
+    .ultrasmall{
 
+        display: none !important;
+    }
 
 }
 
@@ -54,6 +57,10 @@
     }
     .standard {
         display: block !important;
+    }
+    .ultrasmall{
+
+        display: none !important;
     }
 
 

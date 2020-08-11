@@ -25,7 +25,7 @@ const Map = () => {
             </div>
 
             <div className="mapouter ultrasmall">
-                <div className="gmap_canvas">
+                <div className="gmap_canvas ultrasmall">
                     <iframe width="250" height="250" id="gmap_canvas" title="map-small" className="map-iframe"
                     src="https://maps.google.com/maps?q=Avenida%20de%20mallo%201100%20villa%20adelina&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                     <a href="https://www.whatismyip-address.com/divi-discount/"> </a>
