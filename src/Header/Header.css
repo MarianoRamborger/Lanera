@@ -79,6 +79,9 @@
 
   #hamburger {
     display: none;
+    background-color: #a8296b;
+    color: black;
+    border: 2px solid #513e5c;
   }
   
 
