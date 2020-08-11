@@ -307,9 +307,6 @@
 
 
   @media screen and (max-width: 500px) { 
-    #header-bar {
-
-    }
 
     #title-ham-div {
       width: 100% !important;
@@ -324,6 +321,21 @@
       width: 60px;
     }
   }
+
+  @media screen and (max-width: 300px) { 
+    .title{
+      margin-left: 5px !important;
+      font-size: 30px !important;
+    }
+    .logo {
+      width: 40px !important;
+    }
+    #hamburger {
+      font-size: 20px !important;
+    }
+
+  }
+
 
   /* ANIMATIONS */
 
