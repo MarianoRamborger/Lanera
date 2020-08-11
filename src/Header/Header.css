@@ -20,6 +20,10 @@
   margin: 0px; padding: 0px;
   color: #a8296b;
   font-weight: lighter !important;
+  display: flex;
+  flex-direction: row wrap;
+  align-items: flex-end;
+  
 
 
 }
@@ -39,17 +43,26 @@
 
 }
 
+.logo {
+  width: 75px;
+  margin-left: 5px
+}
 
   .nav-bar {
     overflow: hidden;
+    
   }
 
   .nav-bar ul {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     list-style: none;
+    margin-top: 50px;
   }
 
+
+
+  
   .nav-bar ul a{
     float: left;
     display: block;
@@ -97,7 +110,6 @@
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -154,6 +166,7 @@
 
   .title {
     font-size: 40px !important;
+    
   }
   
 }
@@ -164,6 +177,7 @@
     
     .big-dropdown {
       display: none !important;
+      
     }
 
     .nav-bar {
@@ -181,11 +195,14 @@
     #hamburger {
       position: absolute;
       margin-right: 7px;
+      margin-top: 25px;
       right: 0;
       display: block;
     }
 
-
+    .nav-bar ul {
+      margin-top: 0px;
+    }
 
     .title.ham-div {
       display: flex;
@@ -260,9 +277,14 @@
 
       .dropdown-content-small {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
       margin-left: 30px
+    }
+
+    .dropdown-content-small-column {
+      display: flex;
+      flex-flow: column nowrap;
     }
 
     .open {
@@ -298,6 +320,9 @@
       margin-left: 15px;
     }
 
+    .logo {
+      width: 60px;
+    }
   }
 
   /* ANIMATIONS */

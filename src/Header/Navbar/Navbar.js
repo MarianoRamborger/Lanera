@@ -39,11 +39,12 @@ const Navbar = (props) => {
               
                 {/* EL dropdown for big screens. */}
                 <li className="dropdown-container big-dropdown" onMouseEnter={handletoggleDropdown} onMouseLeave={handletoggleDropdown}  > 
-                    
-                        <Link to="/lanas"> Lanas  
+                  
+                        <Link to="/lanas" > Lanas  
             
                             {/* <ArrowDropDownIcon className="dropdown-arrow" />   */}
                         </Link>
+                  
                     
                             {
                                 dropDown === true ?  
@@ -77,17 +78,21 @@ const Navbar = (props) => {
 
                 {dropDown ?  
                     <div className="dropdown-content-small">
-                                <Link to="/lanas"> Todas </Link>
-                                <Link to="/algodon"> Algodon </Link>
-                                <Link to="/lino"> Lino </Link>
-                                <Link to="/cachemir"> Cachemir </Link>
-                                <Link to="/alpaca"> Alpaca </Link>
-                                <Link to="/mohair"> Mohair </Link>
-                                <Link to="/acrilico"> Acrilico </Link>
-                                <Link to="/poliester"> Poliester </Link>
-                                <Link to="/lurex"> Lurex </Link>
-                                <Link to="/merino"> Merino </Link>
-                                <Link to="/mixtas"> Mixtas </Link>
+                                <div className="dropdown-content-small-column"> 
+                                    <Link to="/lanas"> Todas </Link>
+                                    <Link to="/algodon"> Algodon </Link>
+                                    <Link to="/lino"> Lino </Link>
+                                    <Link to="/cachemir"> Cachemir </Link>
+                                    <Link to="/alpaca"> Alpaca </Link>
+                                    <Link to="/mohair"> Mohair </Link>
+                                </div>
+                                <div className="dropdown-content-small-column">
+                                    <Link to="/acrilico"> Acrilico </Link>
+                                    <Link to="/poliester"> Poliester </Link>
+                                    <Link to="/lurex"> Lurex </Link>
+                                    <Link to="/merino"> Merino </Link>
+                                    <Link to="/mixtas"> Mixtas </Link>
+                                </div>
                     </div>
                     : 
                     <div className="dropdown-content-small fade-out">
