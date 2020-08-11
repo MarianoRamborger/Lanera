@@ -324,7 +324,7 @@
 
   @media screen and (max-width: 400px) { 
     .title{
-      margin-left: 5px !important;
+      margin-left: 10px !important;
       font-size: 34px !important;
     }
     .logo {
