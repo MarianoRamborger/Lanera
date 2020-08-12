@@ -84,7 +84,7 @@ return(
           </Route>
 
           <Route exact path="/mixtas"   >
-            <Lanas product={ProductList[0]} />
+            <Lanas product={ProductList[9]} />
           </Route>
 
         </Switch>

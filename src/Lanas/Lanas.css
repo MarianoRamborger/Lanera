@@ -165,7 +165,13 @@
         
     }
 
+}
 
+@media screen and (max-width: 400px) { 
+
+    .product-image { 
+        max-width: 100%;
+    }
 
 }
 

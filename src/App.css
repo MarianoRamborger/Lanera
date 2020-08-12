@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -16,11 +20,7 @@
 
 body {
 
-
-
-  background-color: #f9f8fd
-
-  
+  background-color: #f9f8fd  
 }
 
 @font-face {
