@@ -42,7 +42,7 @@ const Navbar = (props) => {
                   
                         <Link to="/lanas" > Lanas  
             
-                            {/* <ArrowDropDownIcon className="dropdown-arrow" />   */}
+                           
                         </Link>
                   
                     
@@ -114,7 +114,7 @@ const Navbar = (props) => {
                 </li>
 
 
-            {/* <li><Link to="/contacto"> Contacto </Link> </li> */}
+            <li><Link to="/contacto"> Contacto </Link> </li>
 
 
         

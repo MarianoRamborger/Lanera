@@ -8,6 +8,7 @@ import Novedades from './Novedades/Novedades.js'
 import ProductList from './Producto/ProductList'
 import Lanas from './Lanas/Lanas.js'
 import AllLanas from './Lanas/AllLanas.js'
+import Contacto from './Contacto/Contacto.js'
 
 import {
   BrowserRouter as Router,
@@ -85,6 +86,10 @@ return(
 
           <Route exact path="/mixtas"   >
             <Lanas product={ProductList[9]} />
+          </Route>
+
+          <Route exact path="/contacto"   >
+            <Contacto/>
           </Route>
 
         </Switch>

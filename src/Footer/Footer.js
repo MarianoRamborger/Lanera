@@ -15,7 +15,7 @@ const Footer = () => {
            <div className="footer-content-div">  
            
                 <div className="footer-column">  
-                        <h3> Contácto</h3>
+                        <h3> Contacto</h3>
                         
                         <div > <LocationOnIcon /> <p> Avenida de Mayo 1100.  Villa Adelina - B1607  </p> </div>
 
