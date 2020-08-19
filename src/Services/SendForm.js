@@ -3,7 +3,7 @@ import axios from 'axios';
 export const SendForm = (Nombre, Email, Mensaje, cb) =>{
 
     axios
-        .post(`https://marianoram.com/api/mailservice`, {
+        .post(`https://marianoram.com/api/mailer`, {
             // .post(`api/mailservice`, {
             Nombre : Nombre,
             Email: Email,
