@@ -52,6 +52,8 @@
 
 .feedback-div {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .error-div, .success-div {   
@@ -71,15 +73,20 @@
     color: #a8290b;
     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   
 }
 
-@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
 
 
+@media screen  and (max-width: 500px) {
+    #mensaje-input {
+        width: 250px;
+    
+    }
 
-
-@media screen  and (max-width: 600px) {
-
+    .error-div, .success-di {
+        font-size: 35px;
+    }
 
 }
 
@@ -136,3 +143,6 @@
     }
   }
   
+  
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
