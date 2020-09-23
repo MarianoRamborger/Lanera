@@ -68,11 +68,8 @@ const Navbar = (props) => {
                                 
                                 : null
                             }
-                            
                     </li>
-
                 {/* EL dropdown for small screens. */}
-
                 <li className={"dropdown-container small-dropdown" + (dropDown ? ' open': '')} onClick={handletoggleDropdownSmall}>                
                 <Link to="#" className="dropdown-container-small-button" > Lanas </Link> 
 
@@ -110,19 +107,10 @@ const Navbar = (props) => {
                     </div>
 
                 }
-
                 </li>
 
-
             <li><Link to="/contacto"> Contacto </Link> </li>
-
-
-        
             </ul>
-
-     
-        
-
         </div>
         
     )
